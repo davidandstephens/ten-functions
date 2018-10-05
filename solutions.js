@@ -20,3 +20,42 @@
  * and
  * concat
  */
+function isTrue(value) {
+    return value === true;
+}
+
+function isFalse(value) {
+    return value === false;
+}
+
+function not(input) {
+    return !input;
+}
+
+function addOne(input) {
+    return parseFloat(input) + 1;
+}
+
+function isEven(parameter) {
+    return parseFloat(parameter) % 2 == 0;
+}
+
+function isIdentical(para, meter) {
+    return para === meter;
+}
+
+function isEqual(para, meter) {
+    return para == meter;
+}
+
+function or(boo, lean) {
+    return boo || lean;
+}
+
+function and(boo, lean) {
+    return boo && lean;
+}
+
+function concat(para, meter) {
+    return "" + para + meter;
+}
